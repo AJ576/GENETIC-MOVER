@@ -1,4 +1,4 @@
-#GENETIC MOVER AI 
+# GENETIC MOVER AI 
 
 Creator -  **ADITYA JHA**
 
@@ -6,7 +6,7 @@ This program simulates intelligence in a group of movers/cells by using the **ge
 
 Time spent - 1 week
 
-##DESCRIPTION - 
+## DESCRIPTION - 
 This program simulates a bunch of movers to reach a final destination. In each generation we have 100 movers. Each has an internal property called moves,which is like a map.It follows the moves to move on the screen. 
 In the first generation, every mover recieves a random set of moves. Then the best performing mover in the first generation, calculated by how close it got to the goal in a finite amount of moves(150 in this case),
 has their set of moves saved. The next generation is then fed in the best moveset of the previous generation but with slight mutations(i.e. changing the moveset at random places). The mutation rate is arbitararily 
@@ -23,14 +23,19 @@ The genetic mutation rate was set arbitararily and changing it can increase or d
 
 At the current values it takes around 18 genertions to reach the goal.
 
-##ISSUES - 
+## ISSUES - 
 If the user tries to close the program while the simulation is still running, it leads to the program crashing. 
 Probable cause - Too many computations within one loop of the game.
 
-##VIDEO WALKTHROUGH
+## VIDEO WALKTHROUGH
 
 Here's a walkthrough of my implemented program:
 
 <img src='https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWZkNHR4OW05dWtvdHhxZmFvNjV6M3NlczMxejZ3emZyeHZkemNvOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Pnh0ZJsgpkWUpYGfHx/giphy.gif' />
 
 GIF created with [ScreenToGif](https://www.screentogif.com/) for Windows
+
+## NOTES
+- Pygame was used in this project for visuals
+- No other 3rd party libraries were used
+- I wanted to create some kind AI but also a simulation. Both of these interests were combined in this project.
